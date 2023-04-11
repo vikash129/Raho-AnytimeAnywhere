@@ -1,0 +1,39 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+        scroll-behavior: smooth;
+        scroll-padding-top: 4rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        list-style: none;
+        text-decoration: none;
+      }
+
+      /* variable */
+      :root{
+        --main-color : #2288ff ;
+        --secondary-color : #192f6a ;
+        --text-color : #314862 ;
+        --bg-color : #fff ;
+      
+        --box-shadow:2px 2px 18px rgb(14 52 54 / 15%)
+      
+      }
+
+
+body {
+  color : var(--text-color)
+}
+
+
+img{
+  width: 100%;
+}
+
+
+.container{
+  max-width: 1068x;
+  margin: 0 auto;
+}
